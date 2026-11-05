@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.deps/
+.env
+.env.*
+!.env.example
+upload-session*.json
+pet-identity.json
+local-installation.json

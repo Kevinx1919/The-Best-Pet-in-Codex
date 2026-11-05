@@ -1,0 +1,53 @@
+{
+  "name": "Camo",
+  "sprite_version": 2,
+  "width": 1536,
+  "height": 2288,
+  "cell_width": 192,
+  "cell_height": 208,
+  "frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "required_frames": 73,
+  "unused_cells": 15,
+  "encoded_bytes": 2434726,
+  "sha256": "a19ba91ba1e0b28fdf82d68c7c63f7a7667d3963df238097e6e79312f6754cb2",
+  "production_checks": {
+    "structural_validation_ok": true,
+    "quality_gate_ok": true,
+    "blind_direction_review_ok": true,
+    "pets_preflight_valid": true,
+    "jump": {
+      "idle_baseline": 202,
+      "jump_baselines": [
+        202,
+        197,
+        189,
+        198,
+        202
+      ],
+      "airborne_lift_pixels": 13,
+      "landing_delta_pixels": 0
+    },
+    "reviewed_warnings": [
+      "look direction 022.5 accepted with a reviewed warning",
+      "look direction 067.5 accepted with a reviewed warning",
+      "look direction 157.5 accepted with a reviewed warning",
+      "look direction 202.5 accepted with a reviewed warning",
+      "look direction 247.5 accepted with a reviewed warning",
+      "look direction 337.5 accepted with a reviewed warning",
+      "337.5->000 diff is a local outlier (1614 pixels vs neighbor average 948)"
+    ]
+  },
+  "compatibility_basis": "Codex Windows 26.1029.7803.0, inspected November 2026; verify compatibility on other versions."
+}
